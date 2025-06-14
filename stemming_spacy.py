@@ -1,0 +1,2 @@
+spaCy doesn't support stemming directly. It recommends using lemmatization instead (more linguistically correct).
+Still want to mimic it? You'd need to integrate nltk.stem or Snowball stemmers separately.
